@@ -1,4 +1,4 @@
-h2, h1, aside, aside p{
+h2, h1, h3, aside, aside p{
     font-family: Sacramento, sans-serif;
 }
 
@@ -14,17 +14,30 @@ img {
     margin: 20px;
 }
 
-header {
-    padding: 10px;
+article p {
+    padding: 20px;
+    border: 0px;
     margin: 0px;
-    font-size: 30px;
+}
+
+header {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
 }
 
 footer {
     text-align: center;
     clear: both;
-    padding: 10px;
+    padding: 1px;
     margin: 0px;
+    border-top: 5px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    background-color: #222222;
+    color: #F8F0E3;
 }
 
 body {
@@ -32,29 +45,86 @@ body {
     margin: 0px;
 }
 
+div {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h1 {
-    font-size: 30px;
+    font-size: 40px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    padding-left: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    color: #F8F0E3;
+    background-color: #b76e79;
     display: inline-block;
+    padding: 20px 30px 15px 30px;
+    margin: 0px;
+    border: 0px;
+    position: relative;
+    left: 20%;
+    z-index: 1;
+}
+
+h3  {
+    font-size: 40px;
+    text-align: center;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
 }
 
 nav {
     float: right;
+    padding: 20px 30px 15px 30px;
+    border: 10px;
+    position: relative;
+    right: 20%;
+    font-size: 30px;
+}
+
+span {
+    overflow: visible;
+    box-sizing: border-box;
+    border-top: 0px;
+    border-right: 3px;
+    border-bottom: 0px;
+    border-left: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 article {
-    clear: both;
-    float: left;
+    float:left;
     max-width: 700px;
 }
 
 aside {
-    float: right;
+    float: left;
     max-width: 300px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 3px;
+    border-left: 0px;
+    align-content: left;
 }
 
 a {
     color: black;
     text-decoration: none;
+}
+
+.rosegold {
+    border-color: #b76e79;
+    border-style: solid;
 }
 
 aside img {
@@ -71,12 +141,12 @@ a:visited {
 }
 
 article, aside {
-    background-color: blanchedalmond;
+    background-color: #F8F0E3;
     padding: 10px;
     margin: 30px;
 }
 
-header, footer, header > nav {
-    background-color: blanchedalmond;
+header {
+    background-color: #F8F0E3;
     color: black;
 }
