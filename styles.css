@@ -1,0 +1,82 @@
+h2, h1, aside, aside p{
+    font-family: Sacramento, sans-serif;
+}
+
+* {
+    font-family: Cairo, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    float: left;
+    box-shadow: 5px 5px 10px;
+    margin: 20px;
+}
+
+header {
+    padding: 10px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    clear: both;
+    padding: 10px;
+    margin: 0px;
+}
+
+body {
+    background-image: url('/Images/prism.png');
+    margin: 0px;
+}
+
+h1 {
+    font-size: 30px;
+    display: inline-block;
+}
+
+nav {
+    float: right;
+}
+
+article {
+    clear: both;
+    float: left;
+    max-width: 700px;
+}
+
+aside {
+    float: right;
+    max-width: 300px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+aside img {
+    width: 50px;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: dimgray;
+}
+
+article, aside {
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 30px;
+}
+
+header, footer, header > nav {
+    background-color: blanchedalmond;
+    color: black;
+}
